@@ -12,6 +12,12 @@ end
 group :production do
         gem 'pg'
 end
+gem "heroku"
+gem "therubyracer"
+group :development, :test do
+	#gem "mysql2"
+	gem 'taps'
+end
 
 
 # Use SCSS for stylesheets
