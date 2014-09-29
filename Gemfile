@@ -38,7 +38,7 @@ gem 'spring',        group: :development
 # Use ActiveModel has_secure_password
  gem 'bcrypt', :require => 'bcrypt'
  gem 'rails_12factor', group: :production
- ruby '2.0.0'
+ ruby '2.1.2'
 
 
 # Use unicorn as the app server
